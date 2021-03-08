@@ -7,8 +7,6 @@ public class Q6 {
 		
 		Rooms r1 = new Rooms();
 		
-		r1.setData(0, null, null, null);
-		r1.displayData();
 
 	}
 
@@ -21,17 +19,11 @@ class Rooms {
 	String roomArea;
 	String ACmachine;
 	
-	void setData(int rn, String rt, String ra, String ac) {
-		roomNo = rn;
-		roomType = rt;
-		roomArea = ra;
-		ACmachine = ac;
+	void setData() {
+
 	}
 	
 	void displayData(){
-		System.out.println("Room number is: " +roomNo);
-		System.out.println("Room type is: " +roomType);
-		System.out.println("Room area is: " +roomArea);
-		System.out.println("AC machine is: " +ACmachine);
+
 	}
 }
